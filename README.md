@@ -16,15 +16,15 @@ Northcoders have hired you and your pair as contractors to deliver a prototype f
 
 - As a user, I can view a list of available items.
 - As a user, I can view a list of items for a particular category.
+- As a user, I can create a new user profile, with profile picture.
+- As a user, I can add an item to my basket to order later if I am still browsing.
+- As a user, I can remove items from my basket.
+- As a user, I can view which items I have added to my basket.
+- As a user, I can order an item.
+- As a user, I can give another user kudos to make them feel good about themselves.
+- As a user, I can view which items I have previously ordered.
 - As a user, I can list an item to sell.
 - As a user, I can delete an item listing if I change my mind.
-- As a user, I can order an item.
-- As a user, I can view which items I have previously ordered.
-- As a user, I can give another user kudos to make them feel good about themselves.
-- As a user, I can add an item to my basket to order later if I am still browsing.
-- As a user, I can view which items I have added to my basket.
-- As a user, I can remove items from my basket.
-- As a user, I can create a new user profile.
 
 These user stories do not have to be completed in any particular order and the implementation of them is up to you. As always start by planning your app and work on each feature in turn.
 
