@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import "./Categories.css"
+import "./Categories.css";
+import { Link } from "react-router-dom"
 
 const Categories = () => {
     const [categories, setCategories] = useState([]);
@@ -16,11 +17,12 @@ const Categories = () => {
         <main>
             <ul className="categoriesList">
                 {categories.map((category) => {
+                    {console.log(`/api/items?category_name=${category.category_name}`);}
                     return (
                         <li key={category.category_name}>
-
-                            {//add link to individual category page}
-                            <h3>{category.category_name}</h3>
+                            <Link to={`/api/items?category_name=${category.category_name}`}>
+                                <h3>{category.category_name}</h3>
+                            </Link>
                         </li>
                     )
                 })}
