@@ -17,10 +17,10 @@ const Categories = () => {
         <main>
             <ul className="categoriesList">
                 {categories.map((category) => {
-                    {console.log(`/api/items?category_name=${category.category_name}`);}
+                    {console.log(`/items?category_name=${category.category_name}`);}
                     return (
                         <li key={category.category_name}>
-                            <Link to={`/api/items?category_name=${category.category_name}`}>
+                            <Link to={`/categories/${category.category_name}`}>
                                 <h3>{category.category_name}</h3>
                             </Link>
                         </li>
