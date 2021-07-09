@@ -6,7 +6,6 @@ import { Link, useParams } from "react-router-dom"
 const CategoryPage = () => {
     const [categoryPageContent, setCategoryPageContent] = useState([]);
     const { category_name } = useParams();
-    console.log(category_name);
 
     useEffect(() => {
         axios.get(`https://nc-marketplace.herokuapp.com/api/items?category_name=${category_name}`)
